@@ -1,0 +1,87 @@
+.form-info {
+    max-width: 818px;
+    min-height: auto;
+    margin: 0 auto;
+
+    .rowone {
+        display: flex;
+        justify-content: space-between;
+
+        .one {
+            width: 344px;
+            height: 58px;
+            margin-bottom: 20px;
+            border: 1px solid #79ADDC;
+        }
+
+        .two {
+            width: 453px;
+            height: 58px;
+            margin-bottom: 20px;
+            border: 1px solid #79ADDC;
+        }
+    }
+
+    .rowtwo {
+        display: flex;
+        justify-content: space-between;
+
+        .three {
+            width: 344px;
+            height: 58px;
+            margin-bottom: 20px;
+            border: 1px solid #79ADDC;
+        }
+
+        .four {
+            width: 453px;
+            height: 58px;
+            margin-bottom: 20px;
+            border: 1px solid #79ADDC;
+        }
+    }
+
+    input {
+        padding-left: 15px;
+    }
+
+    ::placeholder {
+        font-family: Gilllight;
+        font-size: 18px;
+        color: black;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .form-info {
+
+        .rowone {
+            display: block;
+            max-width: 350px;
+            margin: auto;
+
+            .one {
+                width: 350px;
+            }
+
+            .two {
+                width: 350px;
+            }
+        }
+
+        .rowtwo {
+            display: block;
+            max-width: 350px;
+            margin: auto;
+
+            .three {
+                width: 350px;
+            }
+
+            .four {
+                width: 350px;
+            }
+        }
+    }
+}

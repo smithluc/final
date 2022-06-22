@@ -1,0 +1,61 @@
+.tour6 {
+    max-width: 981px;
+    margin: 0 auto 40px auto;
+    padding-top: 142px;
+
+    .tour6title-wrapper {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+        max-width: 981px;
+        height: 413px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .tour6-title {
+            max-width: 734px;
+            height: 106px;
+            font-family: Novacondensed;
+            font-size: 80px;
+            color: white;
+            text-align: center;
+            letter-spacing: 2px;
+            display: flex;
+            padding-left: 30px;
+            padding-top: 18px;
+        }
+
+        .tour2-title {
+            max-width: 542px;
+            height: 40px;
+            font-family: Novacondensed;
+            font-size: 30px;
+            color: white;
+            margin-top: 275px;
+            margin-left: 600px;
+        }
+    }
+}
+
+
+@media (max-width: 980px) {
+
+    .tour6 {
+        margin-left: 10px;
+        margin-right: 10px;
+
+        .tour6title-wrapper {
+
+            .tour6-title {
+                margin: 18px auto 0 auto;
+                max-width: 542px;
+                text-align: center;
+            }
+
+            .tour2-title {
+                margin: 275px auto 0 auto;
+                max-width: 542px;
+                text-align: center;
+            }
+        }
+    }
+}

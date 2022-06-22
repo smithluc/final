@@ -1,0 +1,47 @@
+footer {
+    background-color: #79ADDC;
+    height: 100px;
+    max-width: 1536px;
+    display: flex;
+    justify-content: space-between;
+
+    .footer-logo {
+        width: 92px;
+        height: 42px;
+        margin: auto 0px auto 150px;
+    }
+
+    .copyright {
+        color: white;
+        font-family: Gill;
+        font-size: 12px;
+        margin: auto 60px;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        font-size: 22px;
+        margin: auto 150px auto 0px;
+        color: white;
+    }
+}
+
+@media (max-width: 850px) {
+
+    footer {
+
+        .footer-logo {
+            margin: auto 10px auto 10px;
+        }
+
+        .copyright {
+            margin: auto 5px auto 5px;
+        }
+
+        .social-links {
+            margin: auto 10px auto 10px;
+        }
+    }
+}

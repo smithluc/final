@@ -1,0 +1,50 @@
+.tour-dayinfo {
+    max-width: 981px;
+    min-height: 776px;
+    margin: 0 auto 80px auto;
+
+    .tourtitle-wrapper {
+            max-width: 235px;
+            height: 80px;
+
+        .tour-title {
+            font-size: 60px;
+            font-family: Novacondensed;
+            position: relative;
+            display: inline;
+            letter-spacing: 10px;
+        
+            .tourheader {
+                border-bottom: 2px solid black;
+                width: 65%;
+                position: absolute;
+                left: 0;
+                bottom: 5px;
+            }
+        }
+    }
+
+    .tour-note {
+        max-width: 980px;
+        min-height: 96px;
+        margin: 22px auto 70px auto;
+        font-family: Gill;
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+}
+
+
+@media (max-width: 980px) {
+
+    .tour-dayinfo {
+
+        .tourtitle-wrapper {
+            margin: 0 auto;
+        }
+
+        .tour-note {
+            margin: 22px 20px 70px 20px;
+        }
+    }
+}

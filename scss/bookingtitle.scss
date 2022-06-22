@@ -1,0 +1,17 @@
+.bookingtitle {
+    max-width: 818px;
+    min-height: 80px;
+    margin: 0 auto;
+    font-size: 60px;
+    font-family: Novacondensed;
+    display: flex;
+}
+
+@media (max-width: 800px) {
+
+    .bookingtitle {
+        max-width: 350px;
+        margin: auto;
+        justify-content: center;
+    }
+}

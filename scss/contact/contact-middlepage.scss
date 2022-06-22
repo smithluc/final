@@ -1,0 +1,155 @@
+.contact-middlepage {
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto 100px auto;
+
+    .side1 {
+        max-width: 400px;
+        height: auto;
+        margin-right: 50px;
+
+        .contact-image {
+            max-width: 400px;
+            height: 442px;
+            background-image: url(../images/map.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .contact-image-details {
+            width: 400px;
+            height: 161px;
+            font-family: Gilllight;
+            font-size: 18px;
+            margin-top: 34px;
+            letter-spacing: 2px;
+        }
+    }
+
+    .side2 {
+        max-width: 529px;
+        height: auto;
+
+        .name {
+            width: 529px;
+            height: 60px;
+            margin-bottom: 21px;
+            padding: 10px;
+            background-color: rgb(241, 241, 241);
+            border: none;
+            font-family: Gill;
+            font-size: 16px;
+        }
+
+        .email {
+            width: 529px;
+            height: 60px;
+            margin-bottom: 21px;
+            padding: 10px;
+            background-color: rgb(241, 241, 241);
+            border: none;
+            font-family: Gill;
+            font-size: 16px;
+        }
+
+        .company {
+            width: 529px;
+            height: 60px;
+            margin-bottom: 21px;
+            padding: 10px;
+            background-color: rgb(241, 241, 241);
+            border: none;
+            font-family: Gill;
+            font-size: 16px;
+        }
+
+        .message {
+            width: 529px;
+            height: 199px;
+            margin-bottom: 20px;
+            padding-bottom: 150px;
+            padding-left: 10px;
+            background-color: rgb(241, 241, 241);
+            border: none;
+            font-family: Gill;
+            font-size: 16px;
+        }
+
+        .button {
+            width: 167px;
+            height: 60px;
+            background-color: #79ADDC;
+            text-align: center;
+            padding-top: 20px;
+            color: white;
+            font-family: Gill;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .contact-middlepage {
+
+        .side1 {
+            width: 300px;
+            margin-left: 20px;
+        }
+
+        .side2 {
+            max-width: 400px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+
+    .contact-middlepage {
+
+        .side1 {
+            width: 200px;
+        }
+
+        .side2 {
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 815px) {
+
+    .contact-middlepage {
+        display: inline;
+
+        .side1 {
+            width: 400px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .side2 {
+            width: 400px;
+            height: auto;
+            margin: 0 auto;
+
+            .name {
+                width: 400px;
+            }
+            .email {
+                width: 400px;
+            }
+            .company {
+                width: 400px;
+            }
+            .message {
+                width: 400px;
+            }
+
+            .button {
+                margin-bottom: 100px;
+            }
+        }
+    }
+}

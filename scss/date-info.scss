@@ -1,0 +1,144 @@
+.checkin-info {
+    max-width: 818px;
+    min-height: auto;
+    margin: 0 auto 20px auto;
+
+    .check-in {
+        display: flex;
+        justify-content: space-between;
+
+        .checkin-title {
+            width: 63px;
+            height: 20px;
+            font-size: 18px;
+            font-family: Gilllight;
+            margin: auto 0px;
+        }
+
+        .checkin-wrapper {
+            position: relative;
+
+            .icon {
+                position: absolute;
+                top: 20px;
+                font-size: 19px;
+                right: 15px;
+            }
+
+            input {
+                width: 698px;
+                height: 58px;
+                padding-left: 15px;
+                outline: none;
+                border: 1px solid #79ADDC;
+            }
+
+            input:focus {
+                border: 2px solid #79ADDC;
+            }
+
+            ::placeholder {
+                font-family: Gilllight;
+                font-size: 18px;
+                color: black;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+
+    .checkin-info {
+
+        .check-in {
+            display: block;
+
+            .checkin-title {
+                max-width: 350px;
+                margin: auto;
+            }
+
+            .checkin-wrapper {
+                max-width: 350px;
+                margin: auto;
+
+                input {
+                    width: 350px;
+                }
+            }
+        }
+    }
+}
+
+
+.checkout-info {
+    max-width: 818px;
+    min-height: auto;
+    margin: 0 auto 20px auto;
+
+    .check-out {
+        display: flex;
+        justify-content: space-between;
+
+        .checkout-title {
+            width: 75px;
+            height: 20px;
+            font-size: 18px;
+            font-family: Gilllight;
+            margin: auto 0px;
+        }
+
+        .checkout-wrapper {
+            position: relative;
+
+            .icon {
+                position: absolute;
+                top: 20px;
+                font-size: 19px;
+                right: 15px;
+            }
+
+            input {
+                width: 698px;
+                height: 58px;
+                padding-left: 15px;
+                outline: none;
+                border: 1px solid #79ADDC;
+            }
+
+            input:focus {
+                border: 2px solid #79ADDC;
+            }
+
+            ::placeholder {
+                font-family: Gilllight;
+                font-size: 18px;
+                color: black;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+
+    .checkout-info {
+
+        .check-out {
+            display: block;
+
+            .checkout-title {
+                max-width: 350px;
+                margin: auto;
+            }
+
+            .checkout-wrapper {
+                max-width: 350px;
+                margin: auto;
+
+                input {
+                    width: 350px;
+                }
+            }
+        }
+    }
+}

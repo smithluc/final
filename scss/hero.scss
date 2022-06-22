@@ -1,0 +1,42 @@
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .centered-content {
+        text-align: center;
+
+        h1 {
+            color: white;
+            font-family: Novacondensed;
+            font-weight: 400;
+            font-size: 60px;
+            padding-bottom: 30px;
+            padding-top: 75px;
+        }
+
+        p {
+            font-family: Gill;
+            color: white;
+            padding-bottom: 48px;
+            font-size: 20px;
+            width: 460px;
+        }
+
+        button {
+            width: 120px;
+            height: 40px;
+            background-color: #79ADDC;
+            color: white;
+            border: none;
+            font-family: Gill;
+            font-size: 15px;
+        }
+    }
+}

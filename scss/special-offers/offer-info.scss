@@ -1,0 +1,110 @@
+.offer-info {
+    max-width: 980px;
+    min-height: 287px;
+    margin: 0 auto;
+    display: flex;
+
+    .offerinfo-image {
+        width: 199px;
+        height: 287px;
+        background-image: url(../images/special-offer-01.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .offerinfo-detail {
+        max-width: 400px;
+        min-height: auto;
+        margin-left: 20px;
+
+        .detailtitle-wrapper {
+            max-width: 306px;
+            min-height: 40px;
+
+            .detailtitle {
+                font-size: 30px;
+                font-family: Novacondensed;
+                max-width: 306px;
+                height: 40px;
+                position: relative;
+                display: inline;
+                letter-spacing: 5px;
+            }
+
+            .detailheader {
+                border-bottom: 3px solid black;
+                width: 65%;
+                position: absolute;
+                left: 0;
+                bottom: 0px;
+            }
+        }
+
+        .sale {
+            max-width: 103px;
+            height: 27px;
+            font-family: Novacondensed;
+            font-size: 20px;
+            margin: -24px -75px 0 auto;
+            color: #FF7D38;
+        }
+
+        .details {
+            max-width: 290px;
+            height: 131px;
+            font-family: Gilllight;
+            font-size: 16px;
+            letter-spacing: 2px;
+            margin-top: 21px;
+        }
+
+        button {
+            width: 133px;
+            height: 40px;
+            background-color: #79ADDC;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Gill;
+            font-size: 15px;
+            color: white;
+            border: none;
+            margin-top: 52px;
+        }
+    }
+}
+
+@media (max-width: 980px) {
+
+    .offer-info {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .offer-info {
+
+        .offerinfo-image {
+        }
+
+        .offerinfo-detail {
+
+            .sale {
+                margin: 0 auto;
+            }
+
+            .details {
+                margin-top: 13px;
+            }
+    
+            button {
+                margin-top: 35px;
+            }
+        }
+    }
+}

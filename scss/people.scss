@@ -1,0 +1,173 @@
+.people {
+    max-width: 818px;
+    min-height: auto;
+    margin: 0 auto 20px auto;
+
+    .person-details {
+        display: flex;
+        justify-content: space-between;
+
+        .adult {
+            width: 39px;
+            height: 20px;
+            font-size: 18px;
+            font-family: Gilllight;
+            margin: auto 0px;
+        }
+
+        .adult-wrapper {
+            position: relative;
+
+            .icon {
+                position: absolute;
+                top: 15px;
+                font-size: 30px;
+                right: 10px;
+            }
+
+            input {
+                width: 103px;
+                height: 58px;
+                padding-left: 15px;
+                outline: none;
+                border: 1px solid #79ADDC;
+            }
+
+            input:focus {
+                border: 2px solid #79ADDC;
+            }
+
+            ::placeholder {
+                font-family: Gilllight;
+                font-size: 18px;
+                color: black;
+            }
+        }
+
+        .children {
+            width: 60px;
+            height: 20px;
+            font-size: 18px;
+            font-family: Gilllight;
+            margin: auto -30px auto 0px;
+        }
+
+        .children-wrapper {
+            position: relative;
+
+            .icon {
+                position: absolute;
+                top: 15px;
+                font-size: 30px;
+                right: 10px;
+            }
+
+            input {
+                width: 103px;
+                height: 58px;
+                padding-left: 15px;
+                outline: none;
+                border: 1px solid #79ADDC;
+            }
+
+            input:focus {
+                border: 2px solid #79ADDC;
+            }
+
+            ::placeholder {
+                font-family: Gilllight;
+                font-size: 18px;
+                color: black;
+            }
+        }
+
+        .rooms {
+            width: 50px;
+            height: 20px;
+            font-size: 18px;
+            font-family: Gilllight;
+            margin: auto -15px auto 0px;
+        }
+
+        .rooms-wrapper {
+            position: relative;
+
+            .icon {
+                position: absolute;
+                top: 15px;
+                font-size: 30px;
+                right: 10px;
+            }
+
+            input {
+                width: 103px;
+                height: 58px;
+                padding-left: 15px;
+                outline: none;
+                border: 1px solid #79ADDC;
+            }
+
+            input:focus {
+                border: 2px solid #79ADDC;
+            }
+
+            ::placeholder {
+                font-family: Gilllight;
+                font-size: 18px;
+                color: black;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+
+    .people {
+
+        .person-details {
+            display: block;
+
+            .adult {
+                max-width: 350px;
+                margin: auto;
+            }
+
+            .adult-wrapper {
+                max-width: 100px;
+                margin: auto auto 20px auto;
+
+                input {
+                    width: 100px;
+                }
+            }
+
+            .children {
+                max-width: 350px;
+                margin: auto;
+            }
+
+            .children-wrapper {
+                max-width: 100px;
+                margin: auto auto 20px auto;
+
+                input {
+                    width: 100px;
+                }
+            }
+
+            .rooms {
+                max-width: 350px;
+                margin: auto;
+            }
+
+            .rooms-wrapper {
+                max-width: 100px;
+                margin: auto auto 20px auto;
+
+                input {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}

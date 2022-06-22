@@ -1,0 +1,32 @@
+.blogtitle-wrapper {
+    max-width: 980px;
+    min-height: auto;
+    margin: 0 auto;
+    padding-top: 148px;
+
+    .blog-title {
+        font-size: 30px;
+        font-family: Novacondensed;
+        width: 92px;
+        height: 40px;
+        position: relative;
+        display: inline;
+        letter-spacing: 5px;
+
+
+        .blogheader {
+            border-bottom: 2px solid black;
+            width: 110%;
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+        }
+    }
+}
+
+@media (max-width: 980px) {
+
+    .blogtitle-wrapper {
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,108 @@
+.blog2 {
+    max-width: 980px;
+    height: 376px;
+    margin: 100px auto 108px auto;
+    display: flex;
+    justify-content: space-between;
+
+    .event2 {
+        width: 980px;
+        height: 376px;
+        display: flex;
+        justify-content: space-between;
+
+        .date2 {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            flex-direction: column;
+            font-family: Gillbold;
+            font-weight: bold;
+            font-size: 22px;
+            text-align: center;
+            padding-top: 10px;
+            color: white;
+            background-color: #79ADDC;
+
+            .month2 {
+                font-family: Gilllight;
+                font-size: 12px;
+                font-weight: 100;
+                color: white;
+            }
+        }
+
+        .blog-image-wrap2 {
+            max-width: 980px;
+            height: 376px;
+            margin-left: 20px;
+
+            .blogimage2 {
+                background-image: url(../images/blog.jpg);
+                width: 900px;
+                height: 259px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .blog-detail2 {
+                width: 380px;
+                height: auto;
+                font-family: Gill;
+                font-size: 13px;
+
+                .highlight2 {
+                    width: 245px;
+                    height: 22px;
+                    font-size: 15px;
+                    margin-top: 20px;
+                    margin-bottom: 11px;
+                }
+
+                .blogdetails2 {
+                    width: 380px;
+                    height: 64px;
+                    color: #79ADDC;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .blog2 {
+        max-width: 500px;
+        margin: 100px auto 108px auto;
+
+        .event2 {
+
+            .blog-image-wrap2 {
+
+                .blogimage2 {
+                    max-width: 500px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 680px) {
+
+    .blog2 {
+        max-width: 300px;
+        margin: 100px auto 108px 30px;
+
+        .event2 {
+
+            .blog-image-wrap2 {
+
+                .blogimage2 {
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+}

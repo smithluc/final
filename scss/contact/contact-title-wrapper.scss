@@ -1,0 +1,32 @@
+.contact-title-wrapper {
+    max-width: 980px;
+    min-height: auto;
+    margin: 0 auto 50px auto;
+    padding-top: 148px;
+
+    .contact-title {
+        font-size: 30px;
+        font-family: Novacondensed;
+        width: 211px;
+        height: 40px;
+        position: relative;
+        display: inline;
+        letter-spacing: 5px;
+
+
+        .contactheader {
+            border-bottom: 2px solid black;
+            width: 65%;
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+        }
+    }
+}
+
+@media (max-width: 980px) {
+
+    .contact-title-wrapper {
+        margin-left: 20px;
+    }
+}

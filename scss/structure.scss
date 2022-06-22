@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 1;
+}
+
+@font-face {
+    font-family: Gillbold;
+    src: url(fonts/GillSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gillbolditalic;
+    src: url(fonts/GillSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Gillitalic;
+    src: url(fonts/GillSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: Gilllight;
+    src: url(fonts/GillSans-Light.ttf);
+}
+
+@font-face {
+    font-family: Gilllightitalic;
+    src: url(fonts/GillSans-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Gillsemibold;
+    src: url(fonts/GillSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Gillsemibolditalic;
+    src: url(fonts/GillSans-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Gillultrabold;
+    src: url(fonts/GillSans-UltraBold.ttf);
+}
+
+@font-face {
+    font-family: Gill;
+    src: url(fonts/GillSans.ttf);
+}
+
+@font-face {
+    font-family: Novabold;
+    src: url(fonts/ProximaNova-Bold-webfont.woff);
+}
+
+@font-face {
+    font-family: Novalight;
+    src: url(fonts/ProximaNova-Light-webfont.woff);
+}
+
+@font-face {
+    font-family: Nova;
+    src: url(fonts/ProximaNova-Regular-webfont.woff);
+}
+
+@font-face {
+    font-family: Novathin;
+    src: url(fonts/ProximaNova-Thin-webfont.woff);
+}
+
+@font-face {
+    font-family: Novacondensed;
+    src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}

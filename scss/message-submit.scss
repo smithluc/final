@@ -1,0 +1,63 @@
+.message-submit {
+    max-width: 813px;
+    min-height: auto;
+    margin: 0 auto;
+
+    input {
+        width: 818px;
+        height: 192px;
+        margin-bottom: 37px;
+        padding-bottom: 120px;
+        padding-left: 20px;
+        border: 1px solid #79ADDC;
+        font-family: Gilllight;
+        font-size: 18px;
+        display: flex;
+    }
+
+    .button {
+        border-radius: 40px;
+        width: 818px;
+        height: 60px;
+        margin-bottom: 100px;
+        background-color: #79ADDC;
+        font-family: Gill;
+        color: white;
+        font-size: 15px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 839px) {
+
+    .message-submit {
+        max-width: 600px;
+
+        .message {
+            width: 600px;
+        }
+
+        .button {
+            width: 600px;
+        }
+    }
+}
+
+
+@media (max-width: 620px) {
+
+    .message-submit {
+        max-width: 450px;
+
+        .message {
+            width: 450px;
+        }
+
+        .button {
+            width: 450px;
+        }
+    }
+}

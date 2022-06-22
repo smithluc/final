@@ -1,0 +1,60 @@
+.tour2-gallery {
+    max-width: 981px;
+    min-height: 347px;
+    margin: 0 auto 29px auto;
+
+    .tour2-images {
+        display: flex;
+        justify-content: space-between;
+
+        .imageone {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .imagetwo {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .imagethree {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .tour2-gallery {
+
+        .tour2-images {
+            display: block;
+
+            .imageone {
+                margin: 0 auto 20px auto;
+                width: 350px;
+            }
+
+            .imagetwo {
+                margin: 0 auto 20px auto;
+                width: 350px;
+            }
+
+            .imagethree {
+                margin: 0 auto 20px auto;
+                width: 350px;
+            }
+        }
+    }
+}

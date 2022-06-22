@@ -1,0 +1,503 @@
+.toursgallery {
+    max-width: 818px;
+    min-height: auto;
+    margin: 48px auto 0 auto;
+
+    .tours-images {
+        display: flex;
+        justify-content: space-between;
+
+        .imageone {
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            h1 {
+                font-family: Novacondensed;
+                font-size: 60px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            h2 {
+                font-family: Novacondensed;
+                font-size: 30px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+
+            button {
+                width: 144px;
+                height: 40px;
+                background-color: #79ADDC;
+                border-radius: 15px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: Gill;
+                font-size: 15px;
+                color: white;
+                border: none;
+            }
+        }
+
+        .imagetwo {
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            h1 {
+                font-family: Novacondensed;
+                font-size: 60px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            h2 {
+                font-family: Novacondensed;
+                font-size: 30px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+
+            button {
+                width: 144px;
+                height: 40px;
+                background-color: #79ADDC;
+                border-radius: 15px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: Gill;
+                font-size: 15px;
+                color: white;
+                border: none;
+            }
+        }
+
+        .imagethree {
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            h1 {
+                font-family: Novacondensed;
+                font-size: 60px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            h2 {
+                font-family: Novacondensed;
+                font-size: 30px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+
+            button {
+                width: 144px;
+                height: 40px;
+                background-color: #79ADDC;
+                border-radius: 15px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: Gill;
+                font-size: 15px;
+                color: white;
+                border: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    
+    .toursgallery {
+        margin-bottom: 0;
+
+        .tours-images {
+            display: block;
+
+            .imageone {
+                margin: 0 auto 20px auto;
+                width: 350px;
+            }
+
+            .imagetwo {
+                margin: 0 auto 20px auto;
+                width: 350px;
+            }
+
+            .imagethree {
+                margin: 0 auto 20px auto;
+                width: 350px;
+            }
+        }
+    }
+}
+
+
+
+.tours-tour2 {
+    max-width: 818px;
+    min-height: auto;
+    margin: 55px auto;
+
+    .tour-images {
+        display: flex;
+        justify-content: space-between;
+
+        .imageone {
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            h1 {
+                font-family: Novacondensed;
+                font-size: 60px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            h2 {
+                font-family: Novacondensed;
+                font-size: 30px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+
+            button {
+                width: 144px;
+                height: 40px;
+                background-color: #79ADDC;
+                border-radius: 15px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: Gill;
+                font-size: 15px;
+                color: white;
+                border: none;
+            }
+        }
+
+        .imagetwo {
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            h1 {
+                font-family: Novacondensed;
+                font-size: 60px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            h2 {
+                font-family: Novacondensed;
+                font-size: 30px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+
+            button {
+                width: 144px;
+                height: 40px;
+                background-color: #79ADDC;
+                border-radius: 15px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: Gill;
+                font-size: 15px;
+                color: white;
+                border: none;
+            }
+        }
+
+        .imagethree {
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            h1 {
+                font-family: Novacondensed;
+                font-size: 60px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            h2 {
+                font-family: Novacondensed;
+                font-size: 30px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+
+            button {
+                width: 144px;
+                height: 40px;
+                background-color: #79ADDC;
+                border-radius: 15px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: Gill;
+                font-size: 15px;
+                color: white;
+                border: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+
+    .tours-tour2 {
+        margin-bottom: 0;
+        margin-top: 0;
+
+        .tour-images {
+            display: block;
+
+            .imageone {
+                margin: 0 auto 20px auto;
+                width: 350px;
+            }
+
+            .imagetwo {
+                margin: 0 auto 20px auto;
+                width: 350px;
+            }
+
+            .imagethree {
+                margin: 0 auto 0 auto;
+                width: 350px;
+            }
+        }
+    }
+}
+
+
+.tours-tour3 {
+    max-width: 818px;
+    min-height: auto;
+    margin: 55px auto;
+
+    .tour-images {
+        display: flex;
+        justify-content: space-between;
+
+        .imageone {
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            h1 {
+                font-family: Novacondensed;
+                font-size: 60px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            h2 {
+                font-family: Novacondensed;
+                font-size: 30px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+
+            button {
+                width: 144px;
+                height: 40px;
+                background-color: #79ADDC;
+                border-radius: 15px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: Gill;
+                font-size: 15px;
+                color: white;
+                border: none;
+            }
+        }
+
+        .imagetwo {
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            h1 {
+                font-family: Novacondensed;
+                font-size: 60px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            h2 {
+                font-family: Novacondensed;
+                font-size: 30px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+
+            button {
+                width: 144px;
+                height: 40px;
+                background-color: #79ADDC;
+                border-radius: 15px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: Gill;
+                font-size: 15px;
+                color: white;
+                border: none;
+            }
+        }
+
+        .imagethree {
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-bottom: 75px;
+
+            h1 {
+                font-family: Novacondensed;
+                font-size: 60px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            h2 {
+                font-family: Novacondensed;
+                font-size: 30px;
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+
+            button {
+                width: 144px;
+                height: 40px;
+                background-color: #79ADDC;
+                border-radius: 15px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: Gill;
+                font-size: 15px;
+                color: white;
+                border: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+
+    .tours-tour3 {
+        margin-top: 20px;
+
+        .tour-images {
+            display: block;
+
+            .imageone {
+                margin: 0 auto 20px auto;
+                width: 350px;
+            }
+
+            .imagetwo {
+                margin: 0 auto 20px auto;
+                width: 350px;
+            }
+
+            .imagethree {
+                margin: 0 auto 100px auto;
+                width: 350px;
+            }
+        }
+    }
+}
+
